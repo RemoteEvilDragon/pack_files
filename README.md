@@ -3,10 +3,10 @@ pack_files
 
 examples:
 
-# encrypt res/*.* to renews/, with specifies key (contain 16 chars max)
+encrypt res/*.* to renews/, with specifies key (contain 16 chars max)
 pack_files -i res -o resnew -ek XXTEA
 
-# encrypt res/*.* to renews/, with specifies key, filename extension
+encrypt res/*.* to renews/, with specifies key, filename extension
 pack_files -i res -o resnew -ek XXTEA -ox dat(or .dat)
 
 ./pack_files.sh -i /Users/lansey/Desktop/test -o /Users/lansey/Desktop/1111 -ek lanseys1231 -ox dat
